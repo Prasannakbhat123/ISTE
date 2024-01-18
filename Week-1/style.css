@@ -7,6 +7,7 @@
 body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .main {
@@ -168,5 +169,81 @@ h1 {
 }
 span{
     color: cyan;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .heading {
+    font-size: 3vh;
+    letter-spacing: 2px;
+
+  }
+
+ 
+  .image2,.images,.images3,.images4{
+    height: 200px;
+    width: auto;
+    padding: 10px;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 2vh;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  h1 {
+    font-size: 4vh;
+    padding: 10px;
+  }
+
+  .pics,.container,.container2,.container3,.container4,.info{
+    /* flex-direction: column; */
+    display: block;
+    text-align: center;
+  }
+
+  .container4 .info p,.container4 .info h1{
+    padding: 20px;
+  }
+.images4{
+  padding-bottom: 10px;
+}
+  h2{
+    margin-top: 30px;
+  }
+
+  .heading{
+    font-size: 7vh;
+  }
+
+  .container2 .info p {
+    padding: 20px;
+  }
+  .container4.info h1{
+    padding: 20px;
+    padding-right: 40px;
+    text-align: center;
+  }
+  .container2,.container,.container3{
+    padding-bottom: 60px;
+  }
+  .container,.container3{
+    padding-top: 20px;
+  }
+  .container4{
+    padding-bottom: 100px;
+  }
+  h2{
+    font-size: 3vh;
+  }
 }
 
